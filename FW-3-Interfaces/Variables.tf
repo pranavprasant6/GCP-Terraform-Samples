@@ -12,7 +12,7 @@ variable "zone" {
 }
 
 variable "public_key" {
-  default = "Your_Public_Key_in_RSA_Format"
+  default = "SHA256:5Mc7D0ddlycxdSbBPTq9bnvcneh2DlFgNGoSD1NHKSw demo"
 }
 
 // VM-Series Firewall Variables 
@@ -27,7 +27,7 @@ variable "image_fw" {
   # /Cloud Launcher API Calls to images/
   # default = "https://www.googleapis.com/compute/v1/projects/paloaltonetworksgcp-public/global/images/vmseries-byol-810"
   # default = "https://www.googleapis.com/compute/v1/projects/paloaltonetworksgcp-public/global/images/vmseries-bundle2-810"
-  # default = "https://www.googleapis.com/compute/v1/projects/paloaltonetworksgcp-public/global/images/vmseries-bundle1-810"
+  default = "https://www.googleapis.com/compute/v1/projects/paloaltonetworksgcp-public/global/images/vmseries-bundle1-810"
 
 }
 
